@@ -1,0 +1,1 @@
+print("tahu bulat enak sekali")
