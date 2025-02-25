@@ -1,1 +1,1 @@
-print("Asu Sila")
+print("Ini text biasa")
