@@ -1,1 +1,1 @@
-print("Woy as-")
+print("pendidikan tingkat dewa")
