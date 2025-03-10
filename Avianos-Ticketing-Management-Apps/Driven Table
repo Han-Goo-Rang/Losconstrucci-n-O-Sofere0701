@@ -1,0 +1,18 @@
+const fruitCodes = {
+    "Apel": "A00",
+    "Aprikot": "B00",
+    "Alpukat": "C00",
+    "Pisang": "D00",
+    "Paprika": "E00",
+    "Blackberry": "F00",
+    "Ceri": "H00",
+    "Kelapa": "I00",
+    "Jagung": "J00"
+};
+
+function getKodeBuah(fruitName) {
+    return fruitCodes[fruitName] || "Kode tidak ditemukan";
+}
+
+console.log(getKodeBuah("Apel")); 
+console.log(getKodeBuah("Pisang")); 

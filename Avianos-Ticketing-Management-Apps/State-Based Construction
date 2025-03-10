@@ -1,0 +1,33 @@
+class PosisiKarakterGame {
+    constructor() {
+        this.state = "Berdiri"; 
+    }
+
+    changeState(newState) {
+        this.state = newState;
+        this.handleStateChange();
+    }
+
+    handleStateChange() {
+        switch (this.state) {
+            case "Berdiri":
+                console.log("posisi standby");
+                break;
+            case "Tengkurap":
+                console.log("posisi istirahat");
+                break;
+            case "Terbang":
+                console.log("posisi take off");
+                break;
+            case "Jongkok":
+                console.log("posisi landing");
+                break;
+            default:
+                console.log("posisi tidak valid");
+        }
+    }
+}
+
+const karakter = new PosisiKarakterGame();
+karakter.changeState("Tengkurap"); 
+karakter.changeState("Terbang");  

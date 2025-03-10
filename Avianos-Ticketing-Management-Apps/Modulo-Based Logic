@@ -1,0 +1,13 @@
+const NIM = 123456; 
+const modResult = NIM % 3;
+
+if (modResult === 0) {
+    console.log("tambol arah bawah ditekan"); 
+    console.log("tambolu rah atas ditekan");  
+} else if (modResult === 1) {
+    console.log("posisi standby");            
+    console.log("posisi istirahat");         
+} else if (modResult === 2) {
+    console.log("posisi landing");            
+    console.log("posisi take off");           
+}
